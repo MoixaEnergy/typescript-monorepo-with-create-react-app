@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.shared.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "skipLibCheck": true
+  },
+  "references": [
+    { "path": "../company-components/tsconfig--reference.json" },
+    { "path": "../company-lib/tsconfig--reference.json" }
+  ],
+  "include": ["src"]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "description": "typescript + create-react-app monorepo",
+  "scripts": {
+    "company-app--start": "cd packages/company-app; pnpm run start",
+    "workspace--build": "pnpx tsc --build --verbose --force",
+    "workspace--install": "pnpm recursive install --link-workspace-packages",
+    "workspace--start": "pnpx tsc --build --watch --verbose"
+  },
+  "devDependencies": {
+    "typescript": "3.5.3"
+  }
+}

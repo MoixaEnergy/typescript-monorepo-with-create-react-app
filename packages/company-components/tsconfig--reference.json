@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.shared.json",
+  "compilerOptions": {
+    "outDir": ".emitted",
+    "rootDir": "src",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}

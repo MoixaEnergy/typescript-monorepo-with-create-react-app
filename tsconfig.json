@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/company-app/tsconfig--reference.json" },
+    { "path": "./packages/company-lib/tsconfig--reference.json" },
+    { "path": "./packages/company-components/tsconfig--reference.json" }
+  ]
+}
